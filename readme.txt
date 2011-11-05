@@ -39,18 +39,18 @@ No. Without Shopp installed, the plugin will be useless.
 
 = Will the plugin change or edit my Shopp pages or products? =
 
-No. You will have to add the tag mentioned above but that is it. The plugin will store the settings of the settings page in the database. No other data is written or saved anywhere.
+No. You will have to add the tag mentioned in the installation instructions but that is it. The plugin will store the settings of the settings page in the database. No other data is written or saved anywhere.
 
 = Will it work without using categories? =
 
 Yes. The plugin will determine the previous and next products by checking the catalog-products listing.
 
-= Will it go to the next category once the last product is displayed?
+= Will it go to the next category once the last product is displayed? =
 
 No. We couldn't come up with a scenario that needed that feature. If you do, let us know.
 Right now the listing will go back to the first product after the last product has been displayed.
 
-= Can I change the settings for the CSS-classes used?
+= Can I change the settings for the CSS-classes used? =
 
 Sure. You can override them in our own stylesheet or change the settings in sppb.css. The file is present in the plugin folder.
 
