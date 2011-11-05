@@ -54,6 +54,11 @@ Right now the listing will go back to the first product after the last product h
 
 Sure. You can override them in our own stylesheet or change the settings in sppb.css. The file is present in the plugin folder.
 
+= Is there a translation available? =
+
+There is not much text in this plugin but a .pot file is included so you can translate the phrases to your needs.
+The plugin is in English, Dutch language files are already present. Checkout the /languages folder.
+
 == Screenshots ==
 
 1. The settings page
@@ -65,8 +70,8 @@ Sure. You can override them in our own stylesheet or change the settings in sppb
 == Changelog ==
 
 = 1.0 =
-*Added comments.
-*First version on WordPress SVN.
+Added comments.<br />
+First version on WordPress SVN.
 
 = 0.2 =
 Optimized some of the code.
