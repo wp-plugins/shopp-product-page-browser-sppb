@@ -11,7 +11,8 @@ Add "previous/next"-product links to your Shopp webshop's product pages.
 == Description ==
 
 With this plugin installed you can supply your customers with previous/next buttons on the product pages of your Shopp webshop.
-They will no longer have to go back and forth between category/catalog pages and product pages. 
+They will no longer have to go back and forth between category/catalog pages and product pages. You can translate the plugin to
+your own language, .pot file is included. Dutch language files are already present.
 
 By use of the tag, you can set if you want to display 'previous', 'next', or 'both'.
 By use of the settings page, you can 
@@ -24,11 +25,12 @@ By use of the settings page, you can
 
 == Installation ==
 
-1. Unzip 'shopp-sppb.zip'
-1. Upload the `shopp-sppb` folder to the `/wp-content/plugins/` directory
-2. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
-3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Place `<?php shopp('product','browser','show=both'); ?>` in your Shopp product.php template file.
+1. download the plugin zip file.
+2. Unzip the zip file.
+3. Upload the `shopp-sppb` folder to the `/wp-content/plugins/` directory
+4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
+5. Activate the plugin through the 'Plugins' menu in WordPress
+6. Place `<?php shopp('product','browser','show=both'); ?>` in your Shopp product.php template file.
    Alternatively you can use `<?php shopp('product','browser','show=previous'); ?>` or `<?php shopp('product','browser','show=next'); ?>`.
 
 == Frequently Asked Questions ==
@@ -57,7 +59,7 @@ Sure. You can override them in our own stylesheet or change the settings in sppb
 = Is there a translation available? =
 
 There is not much text in this plugin but a .pot file is included so you can translate the phrases to your needs.
-The plugin is in English, Dutch language files are already present. Checkout the /languages folder.
+The plugin is in English. Dutch language files are already present. Checkout the /languages folder.
 
 == Screenshots ==
 
