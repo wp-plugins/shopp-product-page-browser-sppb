@@ -3,7 +3,7 @@ Contributors: Shoppdeveloper.com
 Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,navigate,products,browse,ecommerce,webshop,previous,next
 Requires at least: 2.0.2
-Tested up to: 3.1.2
+Tested up to: 3.2.1
 Stable tag: 1.0
 
 Add "previous/next"-product links to your Shopp webshop's product pages.  
