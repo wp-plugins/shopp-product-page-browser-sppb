@@ -4,7 +4,7 @@ Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,navigate,products,browse,ecommerce,webshop,previous,next
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Add "previous/next"-product links to your Shopp webshop's product pages.  
 
@@ -27,7 +27,7 @@ By use of the settings page, you can
 
 1. download the plugin zip file.
 2. Unzip the zip file.
-3. Upload the `shopp-sppb` folder to the `/wp-content/plugins/` directory
+3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
 6. Place `<?php shopp('product','browser','show=both'); ?>` in your Shopp product.php template file.
@@ -70,6 +70,10 @@ The plugin is in English. Dutch language files are already present. Checkout the
 3. What it looks like on your product page
 
 == Changelog ==
+
+= 1.0.1 =
+Corrected stylesheet loading. <br />
+Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
 
 = 1.0 =
 Added comments.<br />

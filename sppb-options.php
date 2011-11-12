@@ -56,12 +56,12 @@ class SPPBSettingsPage{
 		// Read existing option values from database, use default value if empty.
 		$sppb_options			= get_option( 'sppb_options' );
 		$sppb_previous			= ($sppb_options['previous'] == '')? __('Previous','sppb'):$sppb_options['previous'];
-		$sppb_next				= ($sppb_options['next'] == '')? __('Next','sppb'):$sppb_options['next'];
+		$sppb_next			= ($sppb_options['next'] == '')? __('Next','sppb'):$sppb_options['next'];
 		$sppb_thumbnail 		= ($sppb_options['thumbnail'] == '')? 'N':$sppb_options['thumbnail'];
-		$sppb_size				= ($sppb_options['size'] == '')?'50':$sppb_options['size'];
-		$sppb_exclude_category	= $sppb_options['exclude_category'];
-		$sppb_exclude_product 	= $sppb_options['exclude_product'];
-		$sppb_products_limit 	= ($sppb_options['products_limit'] == '')?'200':$sppb_options['products_limit'];
+		$sppb_size			= ($sppb_options['size'] == '')?'50':$sppb_options['size'];
+		$sppb_exclude_category		= $sppb_options['exclude_category'];
+		$sppb_exclude_product 		= $sppb_options['exclude_product'];
+		$sppb_products_limit 		= ($sppb_options['products_limit'] == '')?'200':$sppb_options['products_limit'];
 
 
 		// If changes are made, this hidden field will be set to 'Y'
@@ -69,7 +69,9 @@ class SPPBSettingsPage{
 
 			// Read values entered in the form
 			$sppb_previous 		= $_POST[ 'sppb_previous'];
+			$sppb_previous		= stripslashes(str_replace('"','&quot;',$sppb_previous));
 			$sppb_next 		= $_POST[ 'sppb_next'];
+			$sppb_next		= stripslashes(str_replace('"','&quot;',$sppb_next));
 			$sppb_thumbnail 	= $_POST[ 'sppb_thumbnail'];
 			$sppb_size 		= $_POST[ 'sppb_size'];
 			$sppb_exclude_category 	= $_POST[ 'sppb_exclude_category'];

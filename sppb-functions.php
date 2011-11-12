@@ -18,13 +18,11 @@
 
 
 function add_sppb_stylesheet() {
-	// load sppb.css stylesheet
-	// Respects SSL, sppb.css is relative to the current file
-	$styleUrl = plugins_url( 'sppb.css', __FILE__ ); 
-	$styleFile = WP_PLUGIN_DIR . '/shopp-sppb/sppb.css';
-	if ( file_exists( $styleFile ) ) {
-		wp_register_style( 'styleFile', $styleUrl );
-		wp_enqueue_style( 'styleFile' );
+        $sppb_StyleUrl = plugins_url('sppb.css', __FILE__); // Respects SSL, Style.css is relative to the current file
+        $sppb_StyleFile = WP_PLUGIN_DIR .'/'. basename(dirname(__FILE__)).'/sppb.css';
+        if ( file_exists($sppb_StyleFile) ) {
+            wp_register_style('sppb_StyleSheets', $sppb_StyleUrl);
+            wp_enqueue_style( 'sppb_StyleSheets');
         }
 } // End add_sppb_stylesheet
 
