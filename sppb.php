@@ -4,7 +4,7 @@ Plugin Name: Shopp Product Page Browser (sppb)
 Plugin URI: http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/
 Donate link: http://www.shoppdeveloper.com
 Description: This plugin adds the feature to browse Shopp Product Pages in the Shopp webshop.
-Version: 1.0
+Version: 1.0.1
 Author: Shoppdeveloper.com
 Author URI: http://www.shoppdeveloper.com
 License: GPLv2
