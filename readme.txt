@@ -54,12 +54,16 @@ Right now the listing will go back to the first product after the last product h
 
 = Can I change the settings for the CSS-classes used? =
 
-Sure. You can override them in our own stylesheet or change the settings in sppb.css. The file is present in the plugin folder.
+Sure. You can override them in your own stylesheet or change the settings in sppb.css. The file is present in the plugin folder.
 
 = Is there a translation available? =
 
 There is not much text in this plugin but a .pot file is included so you can translate the phrases to your needs.
 The plugin is in English. Dutch language files are already present. Checkout the /languages folder.
+
+= What version of Shopp do I need? =
+
+The plugin has been tested with Shopp version 1.1.9. We'll update the plugin for Shopp 1.2 once it is released.
 
 == Screenshots ==
 
@@ -85,6 +89,12 @@ Optimized some of the code.
 = 0.1 =
 First version. Ready to be tested.
 
+== Upgrade Notice ==
 
+= 1.0.1 =
+Fixed stylesheet loading. <br />
+Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
 
-
+= 1.0 =
+Added comments.<br />
+First version on WordPress SVN.

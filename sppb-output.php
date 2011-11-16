@@ -2,7 +2,7 @@
 /*
 * SPPB output - Provides SPPB output on Shopp product page.
 *
-* @version 1.0.1
+* @version 1.0
 * @since 0.1
 * @package Shopp-sppb
 * @subpackage sppb-output

@@ -2,7 +2,7 @@
 /*
 * SPPB functions - Provides function for SPPB.
 *
-* @version 1.0.1
+* @version 1.0
 * @since 0.1
 * @package shopp-sppb
 * @subpackage sppb-functions
@@ -18,7 +18,7 @@
 
 
 function add_sppb_stylesheet() {
-        $sppb_StyleUrl = plugins_url('sppb.css', __FILE__); // Respects SSL, sppb.css is relative to the current file
+        $sppb_StyleUrl = plugins_url('sppb.css', __FILE__); // Respects SSL, Style.css is relative to the current file
         $sppb_StyleFile = WP_PLUGIN_DIR .'/'. basename(dirname(__FILE__)).'/sppb.css';
         if ( file_exists($sppb_StyleFile) ) {
             wp_register_style('sppb_StyleSheets', $sppb_StyleUrl);

@@ -2,7 +2,7 @@
 /*
 * SPPB options - Provides Shopp Product Page Browser (sppb) option page in Shopp menu.
 *
-* @version 1.0.1
+* @version 1.0
 * @since 0.1
 * @package sppb
 * @subpackage sppb-options
