@@ -23,7 +23,7 @@ By use of the settings page, you can
 - exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 - exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
-If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page' download page</a>.
+If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
 
 
 == Installation ==
@@ -72,7 +72,7 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 This 1.0.1 version of our plugin has been tested with Shopp version 1.1.9. 
 
-If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page' download page</a>.
+If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
 
 == Screenshots ==
 
