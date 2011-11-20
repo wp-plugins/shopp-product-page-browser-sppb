@@ -23,15 +23,22 @@ By use of the settings page, you can
 - exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 - exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
+If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page' download page</a>.
+
+
 == Installation ==
 
-1. download the plugin zip file.
-2. Unzip the zip file.
+Download and install the plugin through your WordPress Admin Panel, or
+
+1. Download the right plugin zip-file. (Version 1.0.1 for Shopp 1.1.9, version 1.2 for Shopp 1.2 (beta).)
+2. Unzip the zip-file.
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
 6. Place `<?php shopp('product','browser','show=both'); ?>` in your Shopp product.php template file.
    Alternatively you can use `<?php shopp('product','browser','show=previous'); ?>` or `<?php shopp('product','browser','show=next'); ?>`.
+7. Adjust the settings on the settings page (Shopp sppb)
+8. Supply <a href='http://www.shoppdeveloper.com/shopp-product-page-browser-plugin/'>Feedback</a>. We'd love to hear from you!
 
 == Frequently Asked Questions ==
 
@@ -63,7 +70,9 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-The plugin has been tested with Shopp version 1.1.9. We'll update the plugin for Shopp 1.2 once it is released.
+This 1.0.1 version of our plugin has been tested with Shopp version 1.1.9. 
+
+If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page' download page</a>.
 
 == Screenshots ==
 
