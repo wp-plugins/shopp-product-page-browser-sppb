@@ -1,0 +1,123 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopp Product Page Browser (sppb)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-21 00:37+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shoppforum.com <webmaster@shoppforum.com>\n"
+"Language-Team: Shoppdeveloper.com <support@shoppdeveloper.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sppb-options.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: sppb-options.php:53
+msgid "Shoppdeveloper.com - Main Plugin Page"
+msgstr ""
+
+#: sppb-options.php:57
+msgid "Introduction:"
+msgstr ""
+
+#: sppb-options.php:89
+#: sppb-output.php:184
+msgid "Previous"
+msgstr ""
+
+#: sppb-options.php:90
+#: sppb-output.php:185
+msgid "Next"
+msgstr ""
+
+#: sppb-options.php:145
+msgid "Some invalid input has been discarded."
+msgstr ""
+
+#: sppb-options.php:149
+msgid "Options saved."
+msgstr ""
+
+#: sppb-options.php:156
+msgid "Shopp Product Page Browser (sppb) Settings"
+msgstr ""
+
+#: sppb-options.php:162
+msgid "Previous:"
+msgstr ""
+
+#: sppb-options.php:165
+msgid "Default is Previous."
+msgstr ""
+
+#: sppb-options.php:169
+msgid "Next:"
+msgstr ""
+
+#: sppb-options.php:172
+msgid "Default is Next."
+msgstr ""
+
+#: sppb-options.php:176
+msgid "Thumbnail:"
+msgstr ""
+
+#: sppb-options.php:178
+msgid "No"
+msgstr ""
+
+#: sppb-options.php:179
+msgid "Yes"
+msgstr ""
+
+#: sppb-options.php:180
+msgid "Specify whether or not you want to display a thumbnail of the previous/next product."
+msgstr ""
+
+#: sppb-options.php:184
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: sppb-options.php:187
+msgid "Default is 50."
+msgstr ""
+
+#: sppb-options.php:191
+msgid "Exclude Category:"
+msgstr ""
+
+#: sppb-options.php:194
+msgid "Specify the categories to exclude from browsing. Enter Category ID's comma separated."
+msgstr ""
+
+#: sppb-options.php:198
+msgid "Exclude Product:"
+msgstr ""
+
+#: sppb-options.php:201
+msgid "Specify the products to exclude from browsing. Enter Product ID's comma separated."
+msgstr ""
+
+#: sppb-options.php:205
+msgid "Products in Category:"
+msgstr ""
+
+#: sppb-options.php:208
+msgid "Increase this number, if you have more products in a category. Default is 200."
+msgstr ""
+
+#: sppb-options.php:213
+msgid "Save Changes"
+msgstr ""
+
+#: sppb-output.php:172
+msgid "No Categories/Products Found"
+msgstr ""
+
