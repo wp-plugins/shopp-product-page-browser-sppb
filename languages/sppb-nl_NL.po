@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopp Product Page Browser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-30 20:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shoppforum.com <webmaster@shoppforum.com>\n"
+"Language-Team: Shoppdeveloper.com <support@shoppdeveloper.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sppb-options.php:58
+#: sppb-output.php:210
+msgid "Previous"
+msgstr "Vorige"
+
+#: sppb-options.php:59
+#: sppb-output.php:211
+msgid "Next"
+msgstr "Volgende"
+
+#: sppb-options.php:112
+msgid "Some invalid input has been discarded."
+msgstr "Ongeldige waarden zijn overgeslagen."
+
+#: sppb-options.php:116
+msgid "Options saved."
+msgstr "Wijzigingen opgeslagen."
+
+#: sppb-options.php:123
+msgid "Shopp Product Page Browser (sppb) Settings"
+msgstr "Shopp Product Page Browser (sppb) Instellingen"
+
+#: sppb-options.php:129
+msgid "Previous:"
+msgstr "Vorige:"
+
+#: sppb-options.php:132
+msgid "Default is Previous."
+msgstr "Standaardwaarde is Vorige."
+
+#: sppb-options.php:136
+msgid "Next:"
+msgstr "Volgende:"
+
+#: sppb-options.php:139
+msgid "Default is Next."
+msgstr "Standaardwaarde is Volgende."
+
+#: sppb-options.php:143
+msgid "Thumbnail:"
+msgstr "Afbeelding:"
+
+#: sppb-options.php:145
+msgid "No"
+msgstr "Nee"
+
+#: sppb-options.php:146
+msgid "Yes"
+msgstr "Ja"
+
+#: sppb-options.php:147
+msgid "Specify whether or not you want to display a thumbnail of the previous/next product."
+msgstr "Afbeelding gebruiken in plaats van vorige/volgende tekst."
+
+#: sppb-options.php:151
+msgid "Thumbnail Size:"
+msgstr "Afbeeldingsgrootte:"
+
+#: sppb-options.php:154
+msgid "Default is 50."
+msgstr "Standaardwaarde is 50."
+
+#: sppb-options.php:158
+msgid "Exclude Category:"
+msgstr "Categorie uitsluiten:"
+
+#: sppb-options.php:161
+msgid "Specify the categories to exclude from browsing. Enter Category ID's comma separated."
+msgstr "In deze categorieën geen knoppen weergeven. Meerdere Categorie ID-nummers scheiden dmv komma. "
+
+#: sppb-options.php:165
+msgid "Exclude Product:"
+msgstr "Product uitsluiten:"
+
+#: sppb-options.php:168
+msgid "Specify the products to exclude from browsing. Enter Product ID's comma separated."
+msgstr "Bij deze producten geen knoppen weergeven. Meerdere Product ID-nummers scheiden dmv komma. "
+
+#: sppb-options.php:172
+msgid "Products in Category:"
+msgstr "Producten in Categorie:"
+
+#: sppb-options.php:175
+msgid "Increase this number, if you have more products in a category. Default is 200."
+msgstr "Verhoog dit aantal, wanneer er categorieën zijn met meer producten. Standaardwaarde is 200."
+
+#: sppb-options.php:180
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: sppb-output.php:198
+msgid "No Categories/Products Found"
+msgstr "Geen Categorieën/Producten gevonden."
+
