@@ -30,7 +30,7 @@ If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin fr
 
 Download and install the plugin through your WordPress Admin Panel, or
 
-1. Download the right plugin zip-file. (Version 1.0.1 for Shopp 1.1.9, version 1.2 for Shopp 1.2 (beta).)
+1. Download the right plugin zip-file. (Version 1.0.2 for Shopp 1.1.9, version 1.2.1 for Shopp 1.2.x .)
 2. Unzip the zip-file.
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
@@ -70,9 +70,9 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.0.1 version of our plugin has been tested with Shopp version 1.1.9. 
+This 1.0.2 version of our plugin has been tested with Shopp version 1.1.9. 
 
-If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
+If you are using Shopp 1.2.x please download version 1.2.1 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
 
 == Screenshots ==
 
@@ -83,6 +83,8 @@ If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin fr
 3. What it looks like on your product page
 
 == Changelog ==
+=1.0.2=
+Adjusted the code to remove PHP warnings.
 
 = 1.0.1 =
 Corrected stylesheet loading. <br />
