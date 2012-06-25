@@ -10,7 +10,7 @@ Author URI: http://www.shoppdeveloper.com
 License: GPLv2
 
 
-    Copyright 2011 Shoppdeveloper.com  (email : support@shoppdeveloper.com)
+    Copyright 2012 Shoppdeveloper.com  (email : support@shoppdeveloper.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 

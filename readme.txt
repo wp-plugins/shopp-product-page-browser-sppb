@@ -23,7 +23,7 @@ By use of the settings page, you can
 - exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 - exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
-If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> Download page</a>.
+If you are using Shopp 1.2.x please download version 1.2.1 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> Download page</a>.
 
 
 == Installation ==
