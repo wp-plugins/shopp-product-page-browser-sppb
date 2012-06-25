@@ -2,7 +2,7 @@
 /*
 * SPPB functions - Provides function for SPPB.
 *
-* @version 1.0.1
+* @version 1.0.2
 * @since 0.1
 * @package shopp-sppb
 * @subpackage sppb-functions

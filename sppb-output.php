@@ -2,7 +2,7 @@
 /*
 * SPPB output - Provides SPPB output on Shopp product page.
 *
-* @version 1.0.1
+* @version 1.0.2
 * @since 0.1
 * @package Shopp-sppb
 * @subpackage sppb-output
@@ -20,7 +20,7 @@
 function sppb_generate_links($arg){
 
 	$option  = strtolower($arg['show']);
-	$option  = ereg_replace ( '[^a-z]+', "", $option ); 
+	$option  = preg_replace ( '/[^a-z]+/', "", $option ); 
 	switch( $option ){
 		case 'next':
 			$result = sppb_generated_links( 'next' );
@@ -185,8 +185,8 @@ function load_sppb_settings(){
 	$sppb_settings['next']				= ($sppb_settings['next'] == '')? __('Next','sppb'):$sppb_settings['next'];
 	$sppb_settings['thumbnail']			= ($sppb_settings['thumbnail'] == '')? 'N':$sppb_settings['thumbnail'];
 	$sppb_settings['size']				= ($sppb_settings['size'] == '')?'50':$sppb_settings['size'];
-	$sppb_settings['exclude_category']	= explode($sppb_settings['exclude_category']);
-	$sppb_settings['exclude_product'] 	= explode($sppb_settings['exclude_product']);
+	$sppb_settings['exclude_category']	= ($sppb_settings['exclude_category'] == '')? Array() :explode(",",$sppb_settings['exclude_category']);
+	$sppb_settings['exclude_product'] 	= ($sppb_settings['exclude_product'] == '')? Array() :explode(",",$sppb_settings['exclude_product']);
 	$sppb_settings['products_limit'] 	= ($sppb_settings['products_limit'] == '')?'200':$sppb_settings['products_limit'];
 	return $sppb_settings;
 

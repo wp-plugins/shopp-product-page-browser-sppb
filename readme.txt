@@ -4,7 +4,7 @@ Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,navigate,products,browse,ecommerce,webshop,previous,next
 Requires at least: 2.0.2
 Tested up to: 3.2.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Add "previous/next"-product links to your Shopp webshop's product pages.  
 
@@ -23,7 +23,7 @@ By use of the settings page, you can
 - exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 - exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
-If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
+If you are testing Shopp 1.2 (beta) please download version 1.2 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> Download page</a>.
 
 
 == Installation ==
