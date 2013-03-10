@@ -32,8 +32,8 @@ Install the plugin through your WordPress Admin Panel, or
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
-6. == version 1.0.x ==
-   Place 
+6. - version 1.0.x - /n 
+   Place /n
    `<?php shopp('product','browser','show=both'); ?>` 
    in your Shopp product.php template file.
    Alternatively you can use 
@@ -41,8 +41,8 @@ Install the plugin through your WordPress Admin Panel, or
    or 
    `<?php shopp('product','browser','show=next'); ?>`.
 
-   == version 1.2.5 ==
-   Place 
+   -- version 1.2.5 --
+   Place /n
    `<?php if ($_GET["cat"]): ?> 
 	<?php $cat = $_GET["cat"]; ?>
    <?php else: ?>
