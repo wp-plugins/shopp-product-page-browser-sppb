@@ -32,27 +32,27 @@ Install the plugin through your WordPress Admin Panel, or
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
-6. - version 1.0.x - /n 
-   Place /n
-   `<?php shopp('product','browser','show=both'); ?>` 
-   in your Shopp product.php template file.
-   Alternatively you can use 
-   `<?php shopp('product','browser','show=previous'); ?>` 
-   or 
-   `<?php shopp('product','browser','show=next'); ?>`.
+6. Version 1.0.x  
+   Place  
+   `<?php shopp('product','browser','show=both'); ?>`   
+   in your Shopp product.php template file.  
+   Alternatively you can use  
+   `<?php shopp('product','browser','show=previous'); ?>`   
+   or  
+   `<?php shopp('product','browser','show=next'); ?>`.  
 
-   -- version 1.2.5 --
-   Place /n
-   `<?php if ($_GET["cat"]): ?> 
-	<?php $cat = $_GET["cat"]; ?>
-   <?php else: ?>
-	<?php $cat = shopp('product','category','show=id&return=true'); ?>
-   <?php endif; ?>
+   Version 1.2.5  
+   Place  
+   `<?php if ($_GET["cat"]): ?>  
+	<?php $cat = $_GET["cat"]; ?>  
+   <?php else: ?>  
+	<?php $cat = shopp('product','category','show=id&return=true'); ?>  
+   <?php endif; ?>  
    <?php shopp('product','browser',"show=both&cat=$cat"); ?>`
    in your Shopp product.php template file.
    Alternatively you can use 
    `<?php shopp('product','browser',"show=next&cat=$cat"); ?>`
-   or 
+   or  
    `<?php shopp('product','browser',"show=previous&cat=$cat"); ?>`.
 7. Adjust the settings on the settings page (Shopp Extra, Shopp sppb)
 8. If you run in any trouble please use the contact form on our own website. For some reason we do not get notified when you leave a message here at Wordpress.org.
