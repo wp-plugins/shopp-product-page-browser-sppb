@@ -88,7 +88,7 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.2.5 version of the plugin has been tested with Shopp 1.2.5 release. If you are using Shopp 1.1.x, please download version 1.0.1 of this plugin.
+This 1.2.5 version of the plugin has been tested with Shopp 1.2.5 release. If you are using Shopp 1.1.x, please download version 1.0.2 of this plugin.
 
 == Screenshots ==
 
