@@ -3,8 +3,8 @@ Contributors: Shoppdeveloper.com
 Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,navigate,products,browse,ecommerce,webshop,previous,next
 Requires at least: 2.0.2
-Tested up to: 3.2.1
-Stable tag: 1.0.2
+Tested up to: 3.4.2
+Stable tag: 1.2.5
 
 Add "previous/next"-product links to your Shopp webshop's product pages.  
 
@@ -17,28 +17,46 @@ your own language, .pot file is included. Dutch language files are already prese
 By use of the tag, you can set if you want to display 'previous', 'next', or 'both'.
 By use of the settings page, you can 
 
-- set the phrases used for 'Previous' and 'Next'
-- set to use product thumbnails instead of 'Previous'/'Next'
-- set the size of the thumbnails
+- specify the phrases used for 'Previous' and 'Next'
+- specify to use product thumbnails instead of 'Previous'/'Next'
+- specify the size of the thumbnails
 - exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 - exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
-If you are using Shopp 1.2.x please download version 1.2.1 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> Download page</a>.
-
-
 == Installation ==
 
-Download and install the plugin through your WordPress Admin Panel, or
+Install the plugin through your WordPress Admin Panel, or
 
-1. Download the right plugin zip-file. (Version 1.0.2 for Shopp 1.1.9, version 1.2.1 for Shopp 1.2.x .)
+1. Download the right plugin zip-file. (Version 1.0.2 for Shopp 1.1.x, version 1.2.5 for Shopp 1.2.5.)
 2. Unzip the zip-file.
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
 5. Activate the plugin through the 'Plugins' menu in WordPress
-6. Place `<?php shopp('product','browser','show=both'); ?>` in your Shopp product.php template file.
-   Alternatively you can use `<?php shopp('product','browser','show=previous'); ?>` or `<?php shopp('product','browser','show=next'); ?>`.
-7. Adjust the settings on the settings page (Shopp sppb)
-8. Supply <a href='http://www.shoppdeveloper.com/shopp-product-page-browser-plugin/'>Feedback</a>. We'd love to hear from you!
+6. == version 1.0.x ==
+   Place 
+   `<?php shopp('product','browser','show=both'); ?>` 
+   in your Shopp product.php template file.
+   Alternatively you can use 
+   `<?php shopp('product','browser','show=previous'); ?>` 
+   or 
+   `<?php shopp('product','browser','show=next'); ?>`.
+
+   == version 1.2.5 ==
+   Place 
+   `<?php if ($_GET["cat"]): ?> 
+	<?php $cat = $_GET["cat"]; ?>
+   <?php else: ?>
+	<?php $cat = shopp('product','category','show=id&return=true'); ?>
+   <?php endif; ?>
+   <?php shopp('product','browser','show=both'); ?>`
+   in your Shopp product.php template file.
+   Alternatively you can use 
+   `<?php shopp('product','browser','show=previous'); ?>`
+   or 
+   `<?php shopp('product','browser','show=next'); ?>`.
+7. Adjust the settings on the settings page (Shopp Extra, Shopp sppb)
+8. If you run in any trouble please use the contact for on our own website. For some reason we do not get notified when you leave a message here at Wordpress.org.
+9. Supply <a href='Plugin URI: http://www.shoppdeveloper.com/shopp-product-page-browser-plugin/' title='Shoppdeveloper.com feedback for Product Page Browser Plugin'>Feedback</a>. We'd love to hear from you!
 
 == Frequently Asked Questions ==
 
@@ -70,21 +88,25 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.0.2 version of our plugin has been tested with Shopp version 1.1.9. 
-
-If you are using Shopp 1.2.x please download version 1.2.1 of our plugin from the <a href='http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/download/' title='Shopp Product Page Browser Download Page'> download page</a>.
+This 1.2.5 version of the plugin has been tested with Shopp 1.2.5 release. If you are using Shopp 1.1.x, please download version 1.0.1 of this plugin.
 
 == Screenshots ==
 
 1. The settings page
 
-2. Where to put the code in Product.php
+2. Where to put the code in product.php when using version 1.2.5
 
-3. What it looks like on your product page
+3. Where to put the code in product.php when using version 1.0.x
+
+4. What it looks like on your product page
 
 == Changelog ==
-=1.0.2=
-Adjusted the code to remove PHP warnings.
+
+= 1.2.5 =
+New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
+
+= 1.2 =
+New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp. Due to changes to the Shopp Menu (in Admin Panel) we have added the 'Shopp Extra' parent menu which will facilitate all our Shopp plugins. 
 
 = 1.0.1 =
 Corrected stylesheet loading. <br />
@@ -101,6 +123,12 @@ Optimized some of the code.
 First version. Ready to be tested.
 
 == Upgrade Notice ==
+
+= 1.2.5 =
+New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
+
+= 1.2 =
+New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp.
 
 = 1.0.1 =
 Fixed stylesheet loading. <br />

@@ -4,13 +4,13 @@ Plugin Name: Shopp Product Page Browser (sppb)
 Plugin URI: http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/
 Donate link: http://www.shoppdeveloper.com
 Description: This plugin adds the feature to browse Shopp Product Pages in the Shopp webshop.
-Version: 1.0.2
+Version: 1.2.5
 Author: Shoppdeveloper.com
 Author URI: http://www.shoppdeveloper.com
 License: GPLv2
 
 
-    Copyright 2012 Shoppdeveloper.com  (email : support@shoppdeveloper.com)
+    Copyright 2011-2013 Shoppdeveloper.com  (email : support@shoppdeveloper.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -32,12 +32,12 @@ require_once( 'sppb-output.php' );
 
 if( is_admin() ) {
 	// settings page for Administrator only
+	global $shoppExtraMenu;
 	require_once( 'sppb-options.php' );
 	global $sppbSettingsPage;
 	$sppbSettingsPage = new SPPBSettingsPage;
 }
 
-add_sppb_stylesheet();
 
 add_filter('shopp_tag_product_browser','sppb',10,3);
 

@@ -2,7 +2,7 @@
 /*
 * SPPB functions - Provides function for SPPB.
 *
-* @version 1.0.2
+* @version 1.2.5
 * @since 0.1
 * @package shopp-sppb
 * @subpackage sppb-functions
@@ -16,6 +16,7 @@
  *
  */
 
+add_action( 'wp_enqueue_scripts', 'add_sppb_stylesheet' );
 
 function add_sppb_stylesheet() {
         $sppb_StyleUrl = plugins_url('sppb.css', __FILE__); // Respects SSL, sppb.css is relative to the current file
@@ -34,6 +35,7 @@ function sppb_languages() {
 }
 
 function sppb( $result, $options, $Product){
+new ShoppError('In sppb-functions.php','shopp_session_debug',SHOPP_DEBUG_ERR);
 	// add the new tag to shopp('product','') collection
 	$result = sppb_generate_links( $options );
 	return $result;
