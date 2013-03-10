@@ -55,7 +55,7 @@ Install the plugin through your WordPress Admin Panel, or
    or 
    `<?php shopp('product','browser','show=next'); ?>`.
 7. Adjust the settings on the settings page (Shopp Extra, Shopp sppb)
-8. If you run in any trouble please use the contact for on our own website. For some reason we do not get notified when you leave a message here at Wordpress.org.
+8. If you run in any trouble please use the contact form on our own website. For some reason we do not get notified when you leave a message here at Wordpress.org.
 9. Supply <a href='Plugin URI: http://www.shoppdeveloper.com/shopp-product-page-browser-plugin/' title='Shoppdeveloper.com feedback for Product Page Browser Plugin'>Feedback</a>. We'd love to hear from you!
 
 == Frequently Asked Questions ==
