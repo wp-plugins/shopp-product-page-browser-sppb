@@ -43,15 +43,15 @@ Install the plugin through your WordPress Admin Panel, or
 
    Version 1.2.5  
    Place  
-   `<?php if ($_GET["cat"]): ?>  
-	<?php $cat = $_GET["cat"]; ?>  
-   <?php else: ?>  
-	<?php $cat = shopp('product','category','show=id&return=true'); ?>  
-   <?php endif; ?>  
-   <?php shopp('product','browser',"show=both&cat=$cat"); ?>`
-   in your Shopp product.php template file.
-   Alternatively you can use 
-   `<?php shopp('product','browser',"show=next&cat=$cat"); ?>`
+   `<?php if ($_GET["cat"]): ?>`  
+	`<?php $cat = $_GET["cat"]; ?>`  
+   `<?php else: ?>`  
+	`<?php $cat = shopp('product','category','show=id&return=true'); ?>`  
+   `<?php endif; ?>`  
+   `<?php shopp('product','browser',"show=both&cat=$cat"); ?>`  
+   in your Shopp product.php template file.  
+   Alternatively you can use  
+   `<?php shopp('product','browser',"show=next&cat=$cat"); ?>`  
    or  
    `<?php shopp('product','browser',"show=previous&cat=$cat"); ?>`.
 7. Adjust the settings on the settings page (Shopp Extra, Shopp sppb)
