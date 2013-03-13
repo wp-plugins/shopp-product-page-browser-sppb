@@ -70,7 +70,7 @@ No. You will have to add the tag mentioned in the installation instructions but 
 
 = Will it work without using categories? =
 
-Yes. The plugin will determine the previous and next products by checking the catalog-products listing.
+No. You will need to create at least one category for your products.
 
 = Will it go to the next category once the last product is displayed? =
 
