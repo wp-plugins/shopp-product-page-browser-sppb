@@ -1,0 +1,17 @@
+/**
+ * sppb.css
+ * Generic layout & styles for Shopp Product Page Browser plugin
+ *
+ * @author Shoppdeveloper.com
+ * @package sppb
+ **/
+
+/* Generic Sppb Styles */
+
+#sppb-previous{
+   float: left;
+}
+
+#sppb-next{
+   float: right;
+}

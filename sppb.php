@@ -4,9 +4,10 @@ Plugin Name: Shopp Product Page Browser (sppb)
 Plugin URI: http://wordpress.org/extend/plugins/shopp-product-page-browser-sppb/
 Donate link: http://www.shoppdeveloper.com
 Description: This plugin adds the feature to browse Shopp Product Pages in the Shopp webshop.
-Version: 1.2.5
+Version: 1.3 
 Author: Shoppdeveloper.com
 Author URI: http://www.shoppdeveloper.com
+
 License: GPLv2
 
 
@@ -27,21 +28,31 @@ License: GPLv2
 */
 
 
-require_once( 'sppb-functions.php' );
-require_once( 'sppb-output.php' );
+defined( 'WPINC' ) || header( 'HTTP/1.1 403' ) & exit;
 
-if( is_admin() ) {
-	// settings page for Administrator only
-	global $shoppExtraMenu;
-	require_once( 'sppb-options.php' );
-	global $sppbSettingsPage;
-	$sppbSettingsPage = new SPPBSettingsPage;
+add_action('init', 'sppb_init');
+
+function sppb_init(){
+    global $SDC;
+    define('PREVIOUS', __('Previous', 'sppb'));
+    define('NEXT', __('Next', 'sppb'));
+
+    // only start when Shopp is activated
+    if ( function_exists('shopp') ) {
+
+        if ( is_admin() ) {
+            include 'includes/load-scripts.php';
+            include 'includes/core.php';
+            include 'includes/mainscreen.php';
+        } else {
+            include 'includes/load-scripts.php';
+            include 'includes/sppb-output.php';
+        }
+
+    }
 }
 
 
-add_filter('shopp_tag_product_browser','sppb',10,3);
-
-add_action( 'init', 'sppb_languages' );
 
  
 ?>

@@ -2,110 +2,237 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Shopp Product Page Browser (sppb)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-30 20:02+0100\n"
+"POT-Creation-Date: 2015-03-18 14:14+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Shoppforum.com <webmaster@shoppforum.com>\n"
+"Last-Translator: Shoppdeveloper.com Team <support@shoppdeveloper.com>\n"
 "Language-Team: Shoppdeveloper.com <support@shoppdeveloper.com>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: d:\\Internet bestanden\\inwordingnl\\public_html"
+"\\supporting\\wp-content\\plugins\\shopp-sppb\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: sppb-options.php:58
-#: sppb-output.php:210
-msgid "Previous"
+#: includes/core.php:50
+msgid "Product Browser settings saved."
 msgstr ""
 
-#: sppb-options.php:59
-#: sppb-output.php:211
-msgid "Next"
+#: includes/mainscreen.php:35
+msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: sppb-options.php:112
-msgid "Some invalid input has been discarded."
+#: includes/mainscreen.php:39
+msgid "Shoppdeveloper.com - Main Plugin Page"
 msgstr ""
 
-#: sppb-options.php:116
-msgid "Options saved."
+#: includes/mainscreen.php:43
+msgid "Introduction:"
 msgstr ""
 
-#: sppb-options.php:123
+#: includes/mainscreen.php:45
+msgid "The Shopp Extra menu facilitates plugins created by"
+msgstr ""
+
+#: includes/mainscreen.php:46
+msgid "We'd love to hear what you like or don't like about our plugins"
+msgstr ""
+
+#: includes/mainscreen.php:47
+msgid "What works and what doesn't"
+msgstr ""
+
+#: includes/mainscreen.php:49
+msgid "Thanks in advance"
+msgstr ""
+
+#: includes/other_plugins.php:3
+msgid "Plugins developed so far:"
+msgstr ""
+
+#: includes/other_plugins.php:5
+msgid "Shopp Variations to Images"
+msgstr ""
+
+#: includes/other_plugins.php:6
+msgid ""
+"This plugin will enhance your customer's shop experience by adjusting the "
+"product image to the variation of their choice"
+msgstr ""
+
+#: includes/other_plugins.php:7
+msgid ""
+"For example, when selecting a different print, or color, or model, the "
+"product image would adjust to show that print, or color, or model"
+msgstr ""
+
+#: includes/other_plugins.php:9
+msgid "Shopp Bulk Price Editor"
+msgstr ""
+
+#: includes/other_plugins.php:10
+msgid "Change the price of multiple products at once"
+msgstr ""
+
+#: includes/other_plugins.php:11
+msgid ""
+"For example, increase all product prices in a certain category with a "
+"certain amount, or percentage"
+msgstr ""
+
+#: includes/other_plugins.php:13
+msgid "Shopp Bulk Product Importer"
+msgstr ""
+
+#: includes/other_plugins.php:14
+msgid "Import products from a CSV file"
+msgstr ""
+
+#: includes/other_plugins.php:16
+msgid "Shopp Bulk Product Exporter"
+msgstr ""
+
+#: includes/other_plugins.php:17
+msgid "Export product details to a CSV file"
+msgstr ""
+
+#: includes/other_plugins.php:19
+msgid "Shopp Cleaner"
+msgstr ""
+
+#: includes/other_plugins.php:20
+msgid ""
+"Cleanup data left behind by deleted products. Or start from scratch, remove "
+"all products, categories, tags but leave orders and customer data untouched."
+msgstr ""
+
+#: includes/other_plugins.php:22
+msgid "Shopp Payment Add-on Mollie"
+msgstr ""
+
+#: includes/other_plugins.php:23
+msgid ""
+"For Dutch merchants. Add the features of the new Mollie API to your shop"
+msgstr ""
+
+#: includes/other_plugins.php:24
+msgid ""
+"Accept Bancontact/Mister Cash, Bitcoin, Creditcard, iDEAL, Banktransfer, "
+"PayPal, paysafecard, and Sofort Banking payments"
+msgstr ""
+
+#: includes/other_plugins.php:25
+msgid "Shopp Facebook Like Button"
+msgstr ""
+
+#: includes/other_plugins.php:26
+msgid ""
+"Add a Facebook like/share button to your product pages. Configure the looks "
+"by adjusting the settings on the Settings page."
+msgstr ""
+
+#: includes/settings.php:47
 msgid "Shopp Product Page Browser (sppb) Settings"
 msgstr ""
 
-#: sppb-options.php:129
+#: includes/settings.php:53
 msgid "Previous:"
 msgstr ""
 
-#: sppb-options.php:132
+#: includes/settings.php:56
 msgid "Default is Previous."
 msgstr ""
 
-#: sppb-options.php:136
+#: includes/settings.php:60
 msgid "Next:"
 msgstr ""
 
-#: sppb-options.php:139
+#: includes/settings.php:63
 msgid "Default is Next."
 msgstr ""
 
-#: sppb-options.php:143
+#: includes/settings.php:67
 msgid "Thumbnail:"
 msgstr ""
 
-#: sppb-options.php:145
+#: includes/settings.php:69
 msgid "No"
 msgstr ""
 
-#: sppb-options.php:146
+#: includes/settings.php:70
 msgid "Yes"
 msgstr ""
 
-#: sppb-options.php:147
-msgid "Specify whether or not you want to display a thumbnail of the previous/next product."
+#: includes/settings.php:71
+msgid ""
+"Specify whether or not you want to display a thumbnail of the previous/next "
+"product."
 msgstr ""
 
-#: sppb-options.php:151
+#: includes/settings.php:75
 msgid "Thumbnail Size:"
 msgstr ""
 
-#: sppb-options.php:154
+#: includes/settings.php:78
 msgid "Default is 50."
 msgstr ""
 
-#: sppb-options.php:158
+#: includes/settings.php:82
+msgid "Image Setting:"
+msgstr ""
+
+#: includes/settings.php:85
+msgid "= No Image Setting ="
+msgstr ""
+
+#: includes/settings.php:90
+msgid "Image settings are defined on the Shopp->Setup->Images tab"
+msgstr ""
+
+#: includes/settings.php:91
+msgid "This setting will override the above thumbnail size"
+msgstr ""
+
+#: includes/settings.php:95
 msgid "Exclude Category:"
 msgstr ""
 
-#: sppb-options.php:161
-msgid "Specify the categories to exclude from browsing. Enter Category ID's comma separated."
+#: includes/settings.php:98
+msgid ""
+"Specify the categories to exclude from browsing. Enter Category ID's comma "
+"separated."
 msgstr ""
 
-#: sppb-options.php:165
+#: includes/settings.php:102
 msgid "Exclude Product:"
 msgstr ""
 
-#: sppb-options.php:168
-msgid "Specify the products to exclude from browsing. Enter Product ID's comma separated."
+#: includes/settings.php:105
+msgid ""
+"Specify the products to exclude from browsing. Enter Product ID's comma "
+"separated."
 msgstr ""
 
-#: sppb-options.php:172
+#: includes/settings.php:109
 msgid "Products in Category:"
 msgstr ""
 
-#: sppb-options.php:175
-msgid "Increase this number, if you have more products in a category. Default is 200."
+#: includes/settings.php:112
+msgid ""
+"Increase this number, if you have more products in a category. Default is "
+"200."
 msgstr ""
 
-#: sppb-options.php:180
+#: includes/settings.php:117
 msgid "Save Changes"
 msgstr ""
 
-#: sppb-output.php:198
-msgid "No Categories/Products Found"
+#: includes/sppb-output.php:246 sppb.php:37
+msgid "Previous"
 msgstr ""
 
+#: includes/sppb-output.php:247 sppb.php:38
+msgid "Next"
+msgstr ""

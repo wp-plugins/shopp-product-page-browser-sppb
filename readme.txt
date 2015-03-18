@@ -1,33 +1,39 @@
 === Shopp Product Page Browser ===
 Contributors: Shoppdeveloper.com
+Author: Shoppdeveloper.com
+Author URI: http://www.shoppdeveloper.com
 Donate link: http://www.shoppdeveloper.com/
 Tags: shopp,navigate,products,browse,ecommerce,webshop,previous,next
 Requires at least: 2.0.2
-Tested up to: 3.4.2
-Stable tag: 1.2.5
+Tested up to: 4.1.1
+Stable tag: 1.3
+License: GPLv2 or later
 
 Add "previous/next"-product links to your Shopp webshop's product pages.  
 
 == Description ==
 
 With this plugin installed you can supply your customers with previous/next buttons on the product pages of your Shopp webshop.
-They will no longer have to go back and forth between category/catalog pages and product pages. You can translate the plugin to
-your own language, .pot file is included. Dutch language files are already present.
+They will no longer have to go back and forth between category/catalog pages and product pages when browsing a category. You can translate the plugin to your own language, .pot file is included. Dutch language files are already present.
 
-By use of the tag, you can set if you want to display 'previous', 'next', or 'both'.
-By use of the settings page, you can 
+By use of the tag, you set whether you want to display 'previous', 'next', or 'both'.
+By use of the settings page, you specify 
 
-- specify the phrases used for 'Previous' and 'Next'
-- specify to use product thumbnails instead of 'Previous'/'Next'
-- specify the size of the thumbnails
-- exclude categories ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
-- exclude products ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
+- the phrases used for 'Previous' and 'Next'
+- to use product thumbnails instead of 'Previous'/'Next'
+- the size of the thumbnails
+- to use predefined Shopp image-setting
+- which categories to exclude ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
+- which products to exclude ('Previous'/'Next'-buttons will not appear on those Shopp product pages)
 
 == Installation ==
 
 Install the plugin through your WordPress Admin Panel, or
 
-1. Download the right plugin zip-file. (Version 1.0.2 for Shopp 1.1.x, version 1.2.5 for Shopp 1.2.5.)
+1. Download the right plugin zip-file. 
+   - Version 1.0.2 for Shopp 1.1.x,
+   - Version 1.2.5 for Shopp 1.2.5,
+   - Version 1.3 for Shopp 1.3.x
 2. Unzip the zip-file.
 3. Upload the folder to the `/wp-content/plugins/` directory
 4. The plugin is NOT going to change or edit your Shopp files, but just to be sure, back up your files and database.
@@ -41,16 +47,26 @@ Install the plugin through your WordPress Admin Panel, or
    or  
    `<?php shopp('product','browser','show=next'); ?>`.  
 
-   Version 1.2.5  
+   Version 1.2.5
    Place  
    `<?php if ($_GET["cat"]): ?>`  
 	`<?php $cat = $_GET["cat"]; ?>`  
    `<?php else: ?>`  
 	`<?php $cat = shopp('product','category','show=id&return=true'); ?>`  
    `<?php endif; ?>`  
-   `<?php shopp('product','browser',"show=both&cat=$cat"); ?>`  
+   `<?php shopp('product','browser',"show=both&cat=$cat"); ?>` 
+
+   Version 1.3
+   Place  
+   `<?php if ($_GET["cat"]): ?>`  
+   `<?php $cat = $_GET["cat"]; ?>`  
+   `<?php else: ?>`  
+   `<?php $cat = shopp('product.get-category','show=id'); ?>`  
+   `<?php endif; ?>`  
+   `<?php shopp('product','browser',"show=both&cat=$cat"); ?>`    
    in your Shopp product.php template file.  
-   Alternatively you can use  
+
+   Alternatively you can replace the last line of code with  
    `<?php shopp('product','browser',"show=next&cat=$cat"); ?>`  
    or  
    `<?php shopp('product','browser',"show=previous&cat=$cat"); ?>`.
@@ -88,52 +104,64 @@ The plugin is in English. Dutch language files are already present. Checkout the
 
 = What version of Shopp do I need? =
 
-This 1.2.5 version of the plugin has been tested with Shopp 1.2.5 release. If you are using Shopp 1.1.x, please download version 1.0.2 of this plugin.
+This 1.3 version of the plugin has been tested with Shopp 1.3.x release. If you are using Shopp 1.1.x, please download version 1.0.2 of this plugin, for Shopp 1.2.x you will need version 1.2.5 of this plugin.
 
 == Screenshots ==
 
-1. The settings page
+1. The settings page (version 1.0 and version 1.2)
 
-2. Where to put the code in product.php when using version 1.2.5
+2. The settings page (version 1.3)
 
 3. Where to put the code in product.php when using version 1.0.x
 
-4. What it looks like on your product page
+4. Where to put the code in product.php when using version 1.2.5
+
+5. Where to put the code in product.php when using version 1.3
+
+6. What it looks like on your product page
 
 == Changelog ==
+= 1.3 =
+-New version to work with Shopp 1.3.x.
+-Restructured code and files to match our generally used plugin structure
+-Converted code to match Shopp dot notation
+-Added feature to use predefined Shopp image-setting
 
 = 1.2.5 =
-New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
+-New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
+-Added the $cat variable due to a change in Shopp handling categories
 
 = 1.2 =
-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp. Due to changes to the Shopp Menu (in Admin Panel) we have added the 'Shopp Extra' parent menu which will facilitate all our Shopp plugins. 
+-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp. Due to changes to the Shopp Menu (in Admin Panel) we have added the 'Shopp Extra' parent menu which will facilitate all our Shopp plugins. 
 
 = 1.0.1 =
-Corrected stylesheet loading. <br />
-Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
+-Corrected stylesheet loading.
+-Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
 
 = 1.0 =
-Added comments.<br />
-First version on WordPress SVN.
+-Added comments.
+-First version on WordPress SVN.
 
 = 0.2 =
-Optimized some of the code.
+-Optimized some of the code.
 
 = 0.1 =
-First version. Ready to be tested.
+-First version. Ready to be tested.
 
 == Upgrade Notice ==
+= 1.3 =
+-New version to work with Shopp 1.3.x. No need to update if you are using an older Shopp version.
 
 = 1.2.5 =
-New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
+-New version to work with Shopp 1.2.5. No need to update if you are using Shopp 1.1.x
 
 = 1.2 =
-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp.
+-New version to work with Shopp 1.2r6 beta. No need to update if you are not using the 1.2 (beta) version of Shopp.
 
 = 1.0.1 =
-Fixed stylesheet loading. <br />
-Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
+-Fixed stylesheet loading. <br />
+-Quotes and Double Quotes can be used in 'Previous' and 'Next' input field.
 
 = 1.0 =
-Added comments.<br />
-First version on WordPress SVN.
+-Added comments.
+-First version on WordPress SVN.
